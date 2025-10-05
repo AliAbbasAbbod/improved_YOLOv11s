@@ -10,30 +10,11 @@ This repository contains the implementation of an **improved YOLOv11s architectu
 - Optimized anchor configuration for fire and smoke detection  
 - Evaluated on the **D-Fire dataset**
 
----
 
-📊 Results
-| Model | Precision | Recall | mAP@0.5 | mAP@0.5:0.95 |
-|--------|------------|---------|----------|---------------|
-| Improved YOLOv11s | 0.94 | 0.91 | 0.95 | 0.71 |
-
----
 
 📁 Dataset
 The **D-Fire dataset** used in this project is publicly available here:  
 👉 [https://github.com/gaiasd/DFireDataset](https://github.com/gaiasd/DFireDataset)
-
-Download and organize it as follows:
-data/
-├── train/
-│ ├── images/
-│ └── labels/
-├── val/
-│ ├── images/
-│ └── labels/
-└── test/
-├── images/
-└── labels/
 
 
 Then create the file `data/DFire.yaml`:
